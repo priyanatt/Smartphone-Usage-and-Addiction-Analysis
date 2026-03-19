@@ -93,6 +93,7 @@ Git and GitHub
 
 # Project Structure
 
+```text
 digital-wellbeing-analysis
 │
 ├── Data
@@ -105,6 +106,7 @@ digital-wellbeing-analysis
 │
 ├── README.md
 └── requirements.txt
+``` 
 
 # Project Objectives
 
