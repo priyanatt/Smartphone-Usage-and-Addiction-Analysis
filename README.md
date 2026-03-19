@@ -78,6 +78,18 @@ H1: Lower sleep duration is associated with higher smartphone addiction levels
 
 Test: One sided t test
 
+# Technologies Used
+
+Python  
+Pandas  
+NumPy  
+Matplotlib  
+Seaborn  
+SciPy  
+Scikit-learn  
+Jupyter Notebook  
+Tableau Public  
+Git and GitHub  
 
 # Project Structure
 
@@ -93,21 +105,6 @@ digital-wellbeing-analysis
 │
 ├── README.md
 └── requirements.txt
-
-
-# Technologies Used
-
-Python  
-Pandas  
-NumPy  
-Matplotlib  
-Seaborn  
-SciPy  
-Scikit-learn  
-Jupyter Notebook  
-Tableau Public  
-Git and GitHub  
-
 
 # Project Objectives
 
