@@ -144,11 +144,37 @@ The following libraries were used in this project:
 
 # Interactive Tableau Dashboard
 
-An interactive dashboard will be developed using Tableau to present the key insights from the analysis.
+Dashboard link: https://public.tableau.com/app/profile/priya.kaur.natt/viz/SmartphoneUsageAddictionDashboard/Dashboard1?publish=yes 
 
-It will include visualisations such as screen time distributions, relationships between usage variables and addiction level, and comparisons across different behaviour patterns.
+An interactive dashboard was developed using Tableau Public to visually present key insights from the smartphone usage dataset.
 
-Dashboard link: paste your Tableau link here
+The dashboard combines multiple visualisations to provide a comprehensive overview of user behaviour and addiction levels:
+
+- Addiction Level Distribution  
+  Displays the overall distribution of users across Mild, Moderate, and Severe addiction categories. This provides context for understanding how addiction is spread within the dataset.
+
+- Addiction Level by Gender  
+  A stacked bar chart showing how addiction levels vary across gender groups. This allows for comparison and highlights differences in behavioural patterns between groups.
+
+- Relationship Between Screen Time and Addiction Level  
+  A scatter plot illustrating the relationship between daily screen time and addiction level. A positive trend is observed, indicating that higher screen time is associated with more severe addiction levels. Trend lines are included to highlight this relationship across different genders.
+
+### Interactivity
+
+The dashboard includes interactive functionality to enhance data exploration:
+
+- Users can click on a gender category to filter all visualisations dynamically  
+- This allows for deeper analysis of patterns within specific groups  
+- The interactivity improves usability and supports more detailed insights  
+
+### Design Considerations
+
+The dashboard was designed with clarity and usability in mind:
+
+- A clean layout with a clear visual hierarchy, placing the scatter plot as the main focus  
+- Consistent colour coding for addiction levels across all charts  
+- Minimal clutter to ensure readability and focus on key insights  
+
 
 
 # Ethical Considerations
