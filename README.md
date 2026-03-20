@@ -60,23 +60,23 @@ Hypothesis 1 – Screen Time and Addiction
 H0: Daily screen time has no relationship with smartphone addiction level  
 H1: Higher daily screen time is associated with higher smartphone addiction levels  
 
+Test: One-way ANOVA
+
+
+Hypothesis 2 – Notifications and Addiction
+
+H0: Notifications per day have no relationship with smartphone addiction level  
+H1: There is a relationship between notifications per day and smartphone addiction level  
+
 Test: Pearson Correlation
 
 
-Hypothesis 2 – Social Media Usage
+Hypothesis 3 – Gaming Usage
 
-H0: Social media usage has no relationship with smartphone addiction level  
-H1: Higher social media usage is associated with higher smartphone addiction levels  
+H0: There is no difference in addiction level between low and high gaming users  
+H1: There is a difference in addiction level between low and high gaming users  
 
-Test: Pearson Correlation
-
-
-Hypothesis 3 – Sleep Duration
-
-H0: Sleep duration has no relationship with smartphone addiction level  
-H1: Lower sleep duration is associated with higher smartphone addiction levels  
-
-Test: One sided t test
+Test: Independent Samples t-test
 
 # Technologies Used
 
@@ -178,11 +178,16 @@ The dashboard was designed with clarity and usability in mind:
 
 # Ethical Considerations
 
-The dataset contains behavioural data related to smartphone usage. While no personal identifiers are included, there are ethical considerations regarding how addiction levels are defined and interpreted.
+Ethical Considerations
 
-There is a risk of bias in the dataset, as behavioural patterns may not represent all user groups equally. Additionally, smartphone usage data can be sensitive, and care must be taken not to draw harmful or misleading conclusions.
+This project analyses behavioural data related to smartphone usage and digital wellbeing. Although the dataset is anonymised, ethical considerations are important when interpreting this type of data.
 
-The analysis focuses on identifying relationships rather than making causal claims, and results are interpreted cautiously.
+There is a risk of bias, as the dataset may not represent all user groups equally. The analysis focuses on identifying relationships rather than making causal claims, and results are interpreted cautiously.
+
+Key ethical principles such as fairness, transparency and privacy are considered. The methods and limitations are clearly explained, and no personal data is used.
+
+Overall, the analysis aims to provide insights responsibly without making unfair assumptions about individuals based on their smartphone usage.
+
 
 
 # Key Findings
