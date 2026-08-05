@@ -189,7 +189,7 @@ Overall, the analysis aims to provide insights responsibly without making unfair
 
 
 
-## Legal, Data Governance and Ethical Risk Management
+# Legal, Data Governance and Ethical Risk Management
 
 ### Legal Implications
 
