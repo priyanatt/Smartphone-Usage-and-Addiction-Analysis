@@ -178,7 +178,6 @@ The dashboard was designed with clarity and usability in mind:
 
 # Ethical Considerations
 
-Ethical Considerations
 
 This project analyses behavioural data related to smartphone usage and digital wellbeing. Although the dataset is anonymised, ethical considerations are important when interpreting this type of data.
 
@@ -187,6 +186,36 @@ There is a risk of bias, as the dataset may not represent all user groups equall
 Key ethical principles such as fairness, transparency and privacy are considered. The methods and limitations are clearly explained, and no personal data is used.
 
 Overall, the analysis aims to provide insights responsibly without making unfair assumptions about individuals based on their smartphone usage.
+
+
+
+## Legal, Data Governance and Ethical Risk Management
+
+### Legal Implications
+
+The dataset contains information about smartphone usage and some demographic information, so it is important to consider how this type of data should be handled. Although the dataset does not contain directly identifying information such as names or addresses, privacy still needs to be considered.
+
+As this project was completed for educational purposes, the dataset was only used for the analysis carried out in this project. I considered privacy, transparency and responsible use when working with the data.
+
+The analysis does not try to identify individual users or use the results to make decisions about specific people. If the project were developed using data collected directly from smartphone users, I would need to consider legal requirements around how the data is collected and used, including having a valid reason for processing the data, being clear with users about how their data will be used, and keeping the data secure
+
+### Data Governance
+
+I considered data governance when preparing and analysing the dataset, particularly when checking the quality of the data and deciding which data should be used for the analysis.
+The raw and cleaned datasets are kept separately so that the original dataset is not changed. I checked the dataset for missing values and duplicates before carrying out the analysis.
+
+There were 819 missing values in the `addiction_level` column. These records were removed because addiction level was needed for the statistical tests and machine learning model. After removing them, I checked the dataset again to make sure it was ready for the analysis.
+
+The cleaning and analysis process is documented in the Jupyter Notebooks, and Git and GitHub were used to keep track of changes to the project. This makes it easier to see how the data was prepared and how the analysis was carried out.
+
+### Reflection on Data Governance
+
+The decisions made when preparing the data can affect the results of the analysis. I removed the 819 records with missing addiction levels, which reduced the dataset from 7,500 to 6,681 records.
+
+Although these records needed to be removed for the statistical analysis and machine learning model, I realised that removing data can also affect how representative the remaining dataset is. This showed me that data cleaning is not just about preparing the data for analysis, as the decisions made during this process can also affect the findings.
+
+Looking back at the project, I think I could have looked further into why these addiction levels were missing and whether the missing records were linked to a particular group. This could have helped me understand whether removing them introduced any bias. I also think documenting these decisions is important so that the impact they may have had on the results can be understood when interpreting the findings.
+
 
 
 
